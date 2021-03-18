@@ -23,6 +23,17 @@ const CTALink = props => {
     link = props.landingPageRoute.slug.current;
   }
 
+  if(props.phone) {
+    return (
+      <a
+        href={`tel:${props.phone}`}
+        className={props.buttonActionClass || ""}
+      >
+        {props.title}
+      </a>
+    );
+  }
+
   if (props.kind === "button") {
     return (
       <button

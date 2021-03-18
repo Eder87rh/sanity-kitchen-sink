@@ -30,6 +30,12 @@ export default {
       type: 'string'
     },
     {
+      title: 'Phone',
+      name: 'phone',
+      description: 'Example: 75353#####',
+      type: 'string'
+    },
+    {
       title: 'External link',
       name: 'link',
       type: 'string',
