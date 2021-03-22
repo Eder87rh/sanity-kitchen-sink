@@ -91,6 +91,9 @@ const Page = (props) => {
             case "bottomWave":
               el = <BottomWave />;
               break;
+            case "test":
+              el = <div>Test chido perron</div>
+              break;
             default:
               break;
           }
